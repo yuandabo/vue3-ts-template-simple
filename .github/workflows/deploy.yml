@@ -1,7 +1,7 @@
 name: deploy
 
 on:
-  [push, pull_request]:
+  push:
     branches: [master] # master 分支有 push 时触发
 
 jobs:
